@@ -1,0 +1,36 @@
+.menu-section {
+  margin-bottom: 2rem;
+}
+
+.menu-heading {
+  color: #476948;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.menu-items {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+}
+
+.menu-item {
+  border: 1px solid #ccc;
+  padding: 1rem;
+}
+
+.menu-item-name {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.menu-item-description {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+}
+
+.menu-item-price {
+  margin-top: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
