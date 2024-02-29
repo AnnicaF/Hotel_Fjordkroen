@@ -1,0 +1,24 @@
+.about-section {
+  display: flex;
+  width: 100%;
+  height: 400px;
+  margin-top: 90px;
+  margin-bottom: 150px;
+  background-color: #d8d2c9;
+}
+
+.image-half {
+  width: 50%;
+}
+
+.text-half {
+  width: 70%;
+  padding-top: 40px;
+  padding: 80px 100px 170px;
+}
+
+.about-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
