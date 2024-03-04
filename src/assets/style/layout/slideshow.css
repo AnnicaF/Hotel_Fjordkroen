@@ -9,7 +9,7 @@
   width: 100%;
   position: absolute;
   height: auto;
-  object-fit: cover;
+  object-fit: contain;
   filter: blur(0px);
 }
 
@@ -20,13 +20,13 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.6);
   z-index: 1;
 }
 
 .banner-text {
   position: absolute;
-  top: 50%;
+  top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
@@ -35,8 +35,9 @@
 }
 
 .banner-text h1 {
-  font-size: 60px;
+  font-size: 100px;
   letter-spacing: 3px;
+  font-style: italic;
 }
 
 .stars {
@@ -47,10 +48,4 @@
   color: gold;
   font-size: 24px;
   margin-right: 8px;
-}
-
-hr .banner-text {
-  display: flex;
-  justify-content: center;
-  margin-top: 10px;
 }

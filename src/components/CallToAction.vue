@@ -10,6 +10,7 @@
         Nyd et afslappende og idylisk ophold i vores skønne omgivelser, hvor du
         kan nyde udsigten ud over Præstø fjord.
       </p>
+      <br />
       <h4>Ankomst</h4>
       <p>
         Fra klokken 15:00 er jeres værelse klart og I vil efterfølgende få
@@ -80,11 +81,13 @@
   height: 500px;
   object-fit: cover;
 }
-
+h2 {
+  font-style: italic;
+}
 .text-box {
   width: 500px;
   height: 600px;
-  padding: 30px;
+  padding: 35px;
   background-color: white;
   z-index: 99;
 }
@@ -94,14 +97,14 @@ hr {
   margin-bottom: 5px;
 }
 h4 {
-  font-weight: 600;
+  font-weight: 500;
   padding-top: 10px;
   padding-bottom: 10px;
+  font-style: italic;
 }
-
 .read-more {
   position: absolute;
-  bottom: 20px;
+  bottom: 50px;
   left: 50%;
   transform: translateX(-50%);
   text-align: center;

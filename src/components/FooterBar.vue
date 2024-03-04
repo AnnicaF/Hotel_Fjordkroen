@@ -3,11 +3,9 @@
     <div class="footer-container">
       <div class="footer-item">
         <h3 class="footer">Åbningstider</h3>
-        <h4>Restaurant</h4>
-        <p class="hvid info">Onsdag - Søndag: 17:00 til 21:00</p>
-        <br />
-        <h4>Frokost åben</h4>
-        <p>Lørdag - søndag: 12:00 - 15:00</p>
+        <h4>Restaurantens køkken</h4>
+        <p class="hvid info">Onsdag - Søndag: 17:00 - 21:00</p>
+        <p>Lørdag & søndag: Åbent til frokost fra 12:00 - 15:00</p>
         <br />
         <p>Forår og sommer er der åbent alle ugens dage.</p>
       </div>

@@ -3,7 +3,7 @@ footer {
   left: 0;
   right: 0;
   width: 100%;
-  background-color: #494745;
+  background-color: #383f48;
 }
 footer .footer-container {
   display: grid;
@@ -29,6 +29,15 @@ footer .footer-container .footer-item img {
 footer .footer-container .social-icon i {
   margin: 8px;
   color: #ffffff;
+}
+h3 {
+  font-size: 25px;
+  font-style: italic;
+  padding-bottom: 10px;
+}
+h4 {
+  font-weight: 500;
+  font-size: 20px;
 }
 @media (max-width: 768px) {
   footer .footer-container {

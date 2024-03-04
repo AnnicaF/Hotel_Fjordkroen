@@ -51,6 +51,7 @@ p {
 h4 {
   font-size: 16px;
   padding-bottom: 20px;
+  font-style: italic;
 }
 
 .center-text {
